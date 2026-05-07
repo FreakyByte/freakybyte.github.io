@@ -89,3 +89,8 @@ theme = "preferred_color_scheme"
 ## necessary for ox-hugo
 [markup.goldmark.renderer]
   unsafe = true
+
+## necessary for github pages
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
