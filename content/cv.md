@@ -1,0 +1,12 @@
++++
+title = "Curriculum Vitae"
+draft = false
+hideBackToTop = true
+hidePagination = true
++++
+
+-   **since October 2025:** PhD student at University of Bonn under the supervision of Prof. Dr. Philipp Hieronymi
+-   **2023 -- 2025:** Master's Mathematics, University of Bonn
+    -   Thesis: Axiomatizations and Decidability of the Group of Integers with Predicates for Powers, supervised by Prof. Dr. Philipp Hieronymi
+-   **2020 -- 2023:** Bachelor's Mathematics, University of Innsbruck
+    -   Thesis: Universal Embedding Theorems in Combinatorial Game Theory, supervised by Univ-Prof. Dr. Tim Netzer

@@ -1,0 +1,45 @@
+#+title: Miscellaneous
+#+export_file_name: misc
+#+hugo_custom_front_matter: :hideBackToTop false :hidePagination true 
+
+* Math Olympiads
+Since 2021, I've been doing teaching for the [[https://oemo.at/][Austrian Mathematical Olympiad]]. I also like creating olympiad problems, some of which are listed below.
+
+** CAPS-Match 2022, Problem 4
+Find all positive integers \(n\) satisfying
+\[\sigma(n) = \tau(n) \cdot \left\lceil \sqrt{n} \right\rceil, \]
+where \(\sigma(n)\) is the sum of all positive divisors of \(n\), \(\tau(n)\) is the number of positive divisors of \(n\), and \(\left\lceil \sqrt{n} \right\rceil \) is the smallest integer not less than \(\sqrt{n} \).
+
+** Austrian Semi-Finals 2023, Problem 4
+Determine all pairs of positive integers \((n,k)\) which satisfy
+\[n! + n = n^k.\]
+
+** Austrian Finals 2023, Problem 3
+Alice and Bob play a game, in which they take turns drawing segments of length \(1\) in
+the Euclidean plane. Alice begins, drawing the first segment, and from then on, each
+segment must start at the endpoint of the previous segment. It is not permitted to draw
+the segment lying over the preceding one. If the new segment shares at least one point --
+except for its starting point -- with one of the previously drawn segments, one has lost.
+
+1. Show that both Alice and Bob could force the game to end, if they don't care who wins.
+2. Is there a winning strategy for one of them?
+
+** MEMO 2023, Individual Competition, Problem 4
+Let \(n\) and \(m\) be positive integers. We call a set \(S\) of positive integers \((n,m)\)-/good/ if it satisfies the following three conditions:
+1. We have \(m \in S\).
+2. For all \(a\in S\), all of the positive divisors of \(a\) are elements of \(S\) too.
+3. For all mutually different numbers \(a,b \in S\), we have \(a^n+b^n\in S\).
+
+Determine all pairs \((n,m)\) such that the set of all positive integers is the only \((n,m)\)-good set.
+
+** Austrian Semi-Finals 2025, Problem 3
+Consider the following game for a positive integer \(n\): In the beginning, the numbers
+\(1, 2, \dots, n\) are written on a blackboard. In each step, we select two numbers from the
+blackboard whose difference is still written on the blackboard. This difference is then
+erased from the blackboard.
+
+(For example, if the numbers left on the blackboard are \(3\), \(6\), \(11\) and \(17\), we can erase \(3\)
+as \(6-3\) or \(6\) as \(17-11\) or \(11\) as \(17-6\).)
+
+Using such steps, for which \(n\) can we achieve that only one number remains on the
+blackboard?

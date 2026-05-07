@@ -1,0 +1,11 @@
+#+title: Michael Reitmeir
+#+export_file_name: _index
+#+PROPERTY: header-args :export_hugo_type homepage
+
+I am a PhD student in mathematical logic at the University of Bonn, supervised by [[https://www.math.uni-bonn.de/people/phierony/][Philipp Hieronymi]].
+
+- *Email:* reitmeir [at] math [dot] uni-bonn [dot] de
+- *Office:* Endenicher Allee 60, Nebengebäude, N1.007
+
+* Preprints
+- /Axiomatizations of Presburger Arithmetic With Predicates For Powers/ with Philipp Hieronymi and Xiaoduo Wang ([[https://arxiv.org/abs/2602.19602][arxiv:2602.19602]])

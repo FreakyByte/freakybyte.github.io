@@ -1,0 +1,91 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Michael Reitmeir'
+theme = 'typo'
+
+# Google analytics code
+googleAnalytics = "G-xxxxxxxxx"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "Website"
+
+# Appearance settings
+theme = 'dark'
+colorPalette = 'custom'
+hideHeader = false
+showFooter = false
+faviconPath = 'your-path'
+
+# Collection to display on home
+#homeCollectionTitle = 'Posts'
+#homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2. January 2006'
+
+singleDateFormat = '2. January 2006'
+
+math = true
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = false
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+#[[params.social]]
+#name = "linkedin"
+#url = "https://www.linkedin.com/in/user/"
+#
+#[[params.social]]
+#name = "medium"
+#url = "https://medium.com/@user"
+#
+#[[params.social]]
+#name = "github"
+#url = "https://github.com/user"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "cv"
+url = "/cv"
+
+[[params.menu]]
+name = "talks"
+url = "/talks"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'doom-one'
+
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
+
+## necessary for ox-hugo
+[markup.goldmark.renderer]
+  unsafe = true
